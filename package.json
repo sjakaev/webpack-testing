@@ -1,0 +1,34 @@
+{
+  "name": "regru-education",
+  "version": "1.0.0",
+  "description": "Reg.ru education",
+  "private": true,
+  "repository": "https://github.com/RomanSyakaev/edu.git",
+  "author": "Roman Sjakaev <r.sjakaev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
