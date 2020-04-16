@@ -1,9 +1,9 @@
 {
-  "name": "regru-education",
+  "name": "webpack-testing",
   "version": "1.0.0",
-  "description": "Reg.ru education",
+  "description": "webpack testing",
   "private": true,
-  "repository": "https://github.com/RomanSyakaev/edu.git",
+  "repository": "git@github.com:RomanSyakaev/webpack-testing.git",
   "author": "Roman Sjakaev <r.sjakaev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
