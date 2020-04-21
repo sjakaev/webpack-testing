@@ -9,7 +9,7 @@ function createAnalytics() {
     return {
         destroy() {
             document.removeEventListener('click', listener);
-            isDestroyed = true;
+            isDestroy = true;
         },
 
         getClicks() {
